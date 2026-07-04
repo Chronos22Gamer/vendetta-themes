@@ -1,17 +1,22 @@
 {
-    "name": "ClearVision background edit",
-    "description": "TakiShiwa's Clearvision port, but with a different background",
+    "name": "ClearVision v1.2.6",
+    "description": "Clear Vision, but with a different background.",
 	"authors": [
       {
-         "name": "Taki_Shiwa",
+         "name": "Taki_Shiwa, edited by Sunny",
          "id": "466968658997149706"
-      },
-      {
+      }
+	  {
          "name": "Chronos22",
          "id": "203531944909078528"
       }
     ],
     "semanticColors": {
+	"ANDROID_RIPPLE": [
+	    "#07448a",
+	    "#07448a",
+	    "#07448a"
+	],
         "ACTIVITY_CARD_BACKGROUND": [
             "#fb4934",
             "#9d0006",
@@ -53,9 +58,9 @@
             "#86b4ea"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#114d917a",
-            "#2678d67a",
-            "#114d917a"
+            "#222959",
+            "#222959",
+            "#222959"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
             "#2678d626",
@@ -83,25 +88,50 @@
             "#061428"
         ],
         "BACKGROUND_SECONDARY": [
-            "#242437",
-            "#242437",
-            "#242437"
+            "#0a1426",
+            "#0a1426",
+            "#0a1426"
         ],
         "BACKGROUND_SECONDARY_ALT": [
-            "#000000",
-            "#000000",
-            "#000000"
+            "#111423",
+            "#111423",
+            "#111423"
         ],
         "BACKGROUND_TERTIARY": [
             "#04122e",
             "#04122e",
             "#04122e"
         ],
+	"BG_BACKDROP": [
+	    "#102b48b3",
+	    "#102b48b3",
+	    "#102b48b3"
+	],
+	"BG_BASE_PRIMARY": [
+	    "#03081c",
+	    "#03081c",
+	    "#03081c"
+	],
+	"BG_SURFACE_OVERLAY_TMP": [
+            "#03081c",
+	    "#03081c",
+	    "#03081c"
+        ],
         "BUG_REPORTER_MODAL_SUBMITTING_BACKGROUND": [
             "#0a2848",
             "#dcddde",
             "#000000"
-        ],			
+        ],
+	"CARD_PRIMARY_BG": [
+	    "#03081c",
+	    "#03081c",
+	    "#03081c"
+	],
+	"CARD_SECONDARY_BG": [
+	    "#03081c",
+	    "#03081c",
+	    "#03081c"
+	],
         "CHANNELS_DEFAULT": [
             "#575a68",
             "#575a68",
@@ -113,10 +143,15 @@
             "#2780E64d"
         ],
         "CHAT_BACKGROUND": [
-            "#00000099",
-            "#00000099",
-            "#00000099"
+            "transparent",
+            "transparent",
+            "transparent"
         ],
+	"CHAT_SWIPE_TO_REPLY_BACKGROUND": [
+	    "#0f1428",
+	    "#0f1428",
+	    "#0f1428"
+	],
         "CHANNEL_TEXT_AREA_PLACEHOLDER":  [
             "#81b6ef",
             "#81b6ef",
@@ -192,11 +227,21 @@
             "#dcddde",
             "#000000"
         ],
+	"EMBED_BACKGROUND": [
+	    "#031d30b3",
+	    "#031d30b3",
+	    "#031d30b3"
+	],
         "ELEVATION_STROKE": [
             "#0a2848",
             "#dcddde",
             "#000000"
         ],
+	"EXPRESSION_PICKER_BG": [
+	    "#111423",
+	    "#111423",
+	    "#111423"
+	],
         "FOCUS_PRIMARY": [
             "#0a2848",
             "#dcddde",
@@ -307,11 +352,31 @@
             "#076678",
             "#83a598"
         ],
+	"MENTION_FOREGROUND": [
+	    "#ffffff",
+	    "#ffffff",
+	    "#ffffff"
+	],
         "MODAL_FOOTER_BACKGROUND": [
             "#0a2848",
             "#7eb3f0",
             "#000000"
         ],
+	"PANEL_BG": [
+	    "#111423",
+            "#111423",
+            "#111423"
+	],
+	"REDESIGN_BUTTON_SECONDARY_BACKGROUND": [
+	    "#03081c",
+	    "#03081c",
+	    "#03081c"
+	],
+	"REDESIGN_BUTTON_SECONDARY_BORDER": [
+	    "#222959",
+            "#222959",
+            "#222959"
+	],
         "SCROLLBAR_AUTO_THUMB": [
             "#061428",
             "#061428",
@@ -362,6 +427,11 @@
             "#9d0006",
             "#fb4934"
         ],
+	"TYPING_INDICATOR_BG": [
+	    "#00000066",
+	    "#00000066",
+	    "#00000066"
+	],
         "TEXTBOX_MARKDOWN_SYNTAX": [
             "#076678",
             "#076678",
@@ -434,59 +504,24 @@
         "BLACK_830": "#000000",
         "BLACK_860": "#000000",
         "BLACK_900": "#000000",
-        "BRAND_230": "#ff0000",
+        "BRAND_230": "#ffffff",
         "BRAND_260": "#86b4ea",
         "BRAND_360": "#4b96e7",
         "BRAND_500": "#2780E6",
         "BRAND_560": "#3789E6",
-        "RED_260": "#2780E6",
-        "RED_300": "#2780E6",
-        "RED_330": "#2780E6",
-        "RED_345": "#2780E6",
-        "RED_360": "#2780E6",
         "RED_400": "#2780E6",
         "RED_430": "#2780E6",
         "RED_460": "#2780E6",
-        "RED_500": "#2780E6",
-        "RED_530": "#2780E6",
-        "RED_560": "#2780E6",
-        "RED_600": "#2780E6",
-        "RED_630": "#2780E6",
-        "RED_660": "#2780E6",
-        "RED_700": "#2780E6",
         "GREEN_360": "#689d6a",
         "WHITE_500": "#dcddde",
-	"YELLOW_100": "#2780E6",
-        "YELLOW_130": "#2780E6",
-        "YELLOW_160": "#2780E6",
-        "YELLOW_200": "#2780E6",
-        "YELLOW_230": "#2780E6",
-        "YELLOW_260": "#2780E6",
         "YELLOW_300": "#2780E6",
-        "YELLOW_330": "#2780E6",
-        "YELLOW_345": "#2780E6",
-        "YELLOW_360": "#2780E6",
-        "YELLOW_400": "#2780E6",
-        "YELLOW_430": "#2780E6",
-        "YELLOW_460": "#2780E6",
-        "YELLOW_500": "#2780E6",
-        "YELLOW_530": "#2780E6",
-        "YELLOW_560": "#2780E6",
-        "YELLOW_600": "#2780E6",
-        "YELLOW_630": "#2780E6",
-        "YELLOW_660": "#2780E6",
-        "YELLOW_700": "#2780E6",
-        "YELLOW_730": "#2780E6",
-        "YELLOW_760": "#2780E6",
-        "YELLOW_800": "#2780E6",
-        "YELLOW_830": "#2780E6",
-        "YELLOW_860": "#2780E6",
-        "YELLOW_900": "#2780E6"
+	"PLUM_20": "#111423",
+	"PLUM_16": "#111533",
+	"PLUM_22": "#0f1428"
     },
     "background": {
-	"blur": "0.1",
         "url": "https://i.imgur.com/WbRAuHB.jpg",
-	"alpha": "0.33"
+	"alpha": 1
     },
     "plus": {
         "version": 0,
